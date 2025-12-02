@@ -60,8 +60,8 @@
 
 | 분류 | 기술 스택 |
 | :-- | :-- |
-| **Front-end** | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white"/>  |
-| **Back-end** | <img src="https://img.shields.io/badge/Spring_Boot_3.x-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white"/>|
+| **Front-end** | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white"/> |
+| **Back-end** | <img src="https://img.shields.io/badge/Spring_Boot_3.x-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/H2-1f425f?style=flat-square"/> <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white"/>|
 | **AI** | <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white"/> |
 
 ### 🖥️ Front-end
@@ -189,16 +189,6 @@
   - 결제 완료 후 **번호표 발급 → 메뉴 준비 안내 → 일정 시간 후 메인 화면으로 자동 복귀**까지 흐름이 자동으로 진행됩니다.
 
 <br/>
-
-## 💡 느린 키오스크가 만드는 경험
-
-- **심리적 부담을 줄이는 설계**
-  - 제한 시간을 재촉하지 않고, 사용자가 이해하는 속도에 맞춰 음성과 화면이 함께 안내합니다.
-- **“말”로 해결되는 주문**
-  - 복잡한 메뉴 구조를 익힐 필요 없이, 평소 말하듯 주문하면 AI가 메뉴를 찾아 정리해 줍니다.
-- **데이터 기반 맞춤 안내**
-  - 메뉴 정보(성분/영양/알레르기)를 활용해, 단순 주문을 넘어 **건강과 안전을 함께 고려한 안내**를 제공합니다.
-<br>
 
 
 
