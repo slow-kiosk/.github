@@ -102,25 +102,32 @@
 
 ### 1. 메인 키오스크 화면 (`KioskView`)
 
-|                                          메인 화면                                           |                                      사용자 맞춤 설정                                       |
-| :------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-| <img src="https://via.placeholder.com/200x400?text=Kiosk" alt="키오스크 메인" width="200" /> | <img src="https://via.placeholder.com/200x400?text=Global" alt="사용자 맞춤" width="200" /> |
+| 키오스크 모드 선택 | 메인 화면 |
+| :---: | :---: |
+| <img width="170" alt="키오스크 모드 선택" src="https://github.com/user-attachments/assets/dbe5d594-9153-435e-b3ef-dffef6473119" /> | <img width="170" alt="느린 키오스크 메인 화면" src="https://github.com/user-attachments/assets/802b8faf-6825-4045-b726-7b62ba9ab193"> |
+
+
 
 **메인 화면 (`/`, `/kiosk`)**<br>
   - 새 사용자가 진입하면 기존 주문/대화 데이터를 초기화하고 환영 메시지를 표시합니다.
   - **느린 키오스크 모드 / 일반 키오스크 모드** 선택이 가능하며, “주문 시작하기” 버튼으로 주문 플로우를 시작합니다.
   - “사용자 맞춤” 버튼을 통해 접근성 설정 화면으로 이동할 수 있습니다.
+
+| 사용자 맞춤 | (고대비 모드) | (글자 크기 조절) | (색약 모드) |
+| :---: | :---: | :---: | :---: |
+| <img width="170" alt="사용자 맞춤 설정" src="https://github.com/user-attachments/assets/4633fd8b-8614-44e7-81ce-e9a507f20ca0"> | <img width="170" alt="사용자 맞춤 설정 - 고대비 모드" src="https://github.com/user-attachments/assets/c555932c-0d52-46e4-881c-013ee9895d34"> | <img width="170" alt="사용자 맞춤 설정 - 글자 크기 조절" src="https://github.com/user-attachments/assets/cf2e8ecf-8524-4793-98d4-6c7340e213eb"> | <img width="170" alt="사용자 맞춤 설정 - 색약 모드" src="https://github.com/user-attachments/assets/511329f1-6785-4108-a9b9-90e0debb4340"> 
+
 **사용자 맞춤 설정 (`/global`)**<br>
   - **고대비 모드, 글자 크기(1x / 1.5x), 색약 모드** 등을 토글로 설정할 수 있습니다.
   - 설정 값은 전역 상태로 관리되어 이후 모든 화면에 동일하게 적용되어, 한 번만 설정하면 계속 유지됩니다.
 
 <br/>
 
-### 2. 결제 수단 및 이용 방식 선택 (`PaymentView`)
+### 2.  이용 방식 및 결제 방식 선택 (`PaymentView`)
 
-|                                       결제/이용 방식 선택                                       |
+|                                       이용/결제 방식 선택                                       |
 | :---------------------------------------------------------------------------------------------: |
-| <img src="https://via.placeholder.com/200x400?text=Payment" alt="결제 수단 선택" width="200" /> |
+| <img width="170" alt="결제 선택 - 기프티콘" src="https://github.com/user-attachments/assets/2c63f6bf-f4fa-468b-9e64-4b322cba9208" /> |
 
 **경로**: `/payment`<br>
 **주요 기능**<br>
@@ -137,7 +144,7 @@
 
 |                                     음성 주문 & AI 대화                                     |
 | :-----------------------------------------------------------------------------------------: |
-| <img src="https://via.placeholder.com/200x400?text=Ordering" alt="주문 화면" width="200" /> |
+| <img width="170" alt="메뉴 주문" src="https://github.com/user-attachments/assets/4d755038-d691-4d78-acae-94c9cdf7ceea" /> |
 
 **경로**: `/ordering`<br>
 **주요 기능**<br>
@@ -158,7 +165,7 @@
 
 |                                        주문 내역 확인                                        |
 | :------------------------------------------------------------------------------------------: |
-| <img src="https://via.placeholder.com/200x400?text=OrderList" alt="주문 내역" width="200" /> |
+| <img width="170" alt="주문 내역 - 키프티콘" src="https://github.com/user-attachments/assets/278efb0b-d242-4c01-9e48-28b8eaee0090" />
 
 **경로**: `/order-list`<br>
 **주요 기능**<br>
@@ -169,17 +176,16 @@
 
 ### 5. 결제 확인 & 완료 (`CheckoutView`)
 
-|                                      결제 및 완료 화면                                      |
-| :-----------------------------------------------------------------------------------------: |
-| <img src="https://via.placeholder.com/200x400?text=Checkout" alt="결제 화면" width="200" /> |
+| 최종 결제 (기프티콘) | 최종 결제 (카드) | 최종 결제 (모바일) | 메뉴 준비 안내 |
+| :---: | :---: | :---: | :---: |
+| <img width="170" alt="최종 결제 - 기프티콘" src="https://github.com/user-attachments/assets/e57d8d17-1836-4a46-b786-64184b945d34" /> | <img width="170" alt="최종 결제 - 카드" src="https://github.com/user-attachments/assets/821a2aaa-d781-44c7-a783-9c40387ae834" /> | <img width="170" alt="최종 결제 - 모바일" src="https://github.com/user-attachments/assets/a1fd4ef0-f17c-412d-8b68-c2dff752da9f" /> | <img width="170" alt="메뉴 준비 중" src="https://github.com/user-attachments/assets/df603fde-1981-4c52-8730-a897830f453f" /> |
+
 
 **경로**: `/checkout`<br>
 **주요 기능**<br>
   - 최종 주문 금액, 할인 내역, 결제 수단 정보를 한 번 더 확인할 수 있습니다.
-  - 음성 또는 키패드로 **쿠폰/기프티콘 코드**를 입력해 할인을 적용할 수 있습니다.
   - “결제하기” 버튼을 누르면 결제 수단에 따라  
-    “카드를 단말기에 꽂아주세요.”, “모바일 페이를 인식해주세요.” 등  
-    **천천히, 단계별로 진행 상황을 안내하는 애니메이션과 음성 안내**가 재생됩니다.
+    “모바일 페이를 인식해주세요.” 등 단계별 진행 상황을 안내하는 애니메이션과 음성 안내**가 재생됩니다.
   - 결제 완료 후 **번호표 발급 → 메뉴 준비 안내 → 일정 시간 후 메인 화면으로 자동 복귀**까지 흐름이 자동으로 진행됩니다.
 
 <br/>
