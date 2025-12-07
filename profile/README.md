@@ -46,9 +46,7 @@
 
 |                                   백민근                                   |                                   이서현                                   |                                   정용진                                   |
 | :------------------------------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
-| <img src="https://via.placeholder.com/150" width="100px" alt="profile1" /> | <img src="https://via.placeholder.com/150" width="100px" alt="profile2" /> | <img src="https://via.placeholder.com/150" width="100px" alt="profile3" /> |
-|                      [@GithubID](https://github.com/)                      |                      [@GithubID](https://github.com/)                      |                      [@GithubID](https://github.com/)                      |
-|                            **Back-end & Infra**                            |                           **Front-end & Back-end**                            |                               **AI & Data**                                |
+|                            **Back-end & Infra**                            |                           **Front-end & Back-end**                            |                               **AI & Data**                             |
 
 
 
@@ -142,11 +140,32 @@
 
 ### 3. 음성 주문 & AI 대화형 주문 화면 (`OrderingView`)
 
-|  음성 주문 & AI 대화   | (글자 1.5배 + 노년층 주문) | (아이를 위한 메뉴 추천) | (다이어트 및 알레르기 주문) |
-| :---: | :---: | :---: | :---: |
-| <img width="170" alt="메뉴 주문" src="https://github.com/user-attachments/assets/4d755038-d691-4d78-acae-94c9cdf7ceea" /> | <video src="https://github.com/user-attachments/assets/5e9f4bc8-9305-42e4-9e2e-54801e5eeed1" width="170" alt="글자 1.5배 + 노년층 주문" controls /> |
-| <video src="https://github.com/user-attachments/assets/6bef175c-adfa-4b9f-b811-9fb8332822bb" width="170" alt="아이를 위한 메뉴 추천" controls /> |
-| <video src="https://github.com/user-attachments/assets/06a3446c-a272-40ab-b30c-9bea38cf3c31" width="170" alt="다이어트 및 알레르기 주문" controls> |
+<table>
+  <thead>
+    <tr>
+      <th align="center">음성 주문 & AI 대화</th>
+      <th align="center">글자 1.5배 / 노년층</th>
+      <th align="center">아이를 위한 메뉴</th>
+      <th align="center">다이어트 / 알레르기</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img width="170" alt="메뉴 주문" src="https://github.com/user-attachments/assets/4d755038-d691-4d78-acae-94c9cdf7ceea">
+      </td>
+      <td align="center">
+        <video src="https://github.com/user-attachments/assets/5e9f4bc8-9305-42e4-9e2e-54801e5eeed1" width="170" controls></video>
+      </td>
+      <td align="center">
+        <video src="https://github.com/user-attachments/assets/6bef175c-adfa-4b9f-b811-9fb8332822bb" width="170" controls></video>
+      </td>
+      <td align="center">
+        <video src="https://github.com/user-attachments/assets/06a3446c-a272-40ab-b30c-9bea38cf3c31" width="170" controls></video>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 **경로**: `/ordering`<br>
 **주요 기능**<br>
